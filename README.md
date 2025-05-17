@@ -26,7 +26,7 @@ Acesse [eclipse.org/downloads](https://www.eclipse.org/downloads/) para fazer o 
 ### 2️⃣ Crie um novo projeto no Eclipse
 
 * Abra o Eclipse e selecione `File > New > Java Project`
-* Nomeie o projeto (ex: `FigurasGeometricasPlanas`)
+* Nomeie o projeto (ex: `FigurasGeometricas`)
 
 ### 3️⃣ Crie os pacotes e classes
 
