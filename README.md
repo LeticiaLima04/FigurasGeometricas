@@ -63,7 +63,6 @@ Acesse [eclipse.org/downloads](https://www.eclipse.org/downloads/) para fazer o 
 ┃ ┃ ┣ 📜 Paralelogramo.java
 ┃ ┃ ┣ 📜 Hexagono.java
 ┃ ┃ ┣ 📜 Pentagono.java
-┃ ┃ ┣ 📜 Principal.java
 ┃ ┣ 📂 br.edu.principal
 ┃ ┃ ┣ 📜 Principal.java
 
