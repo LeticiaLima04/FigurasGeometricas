@@ -195,7 +195,7 @@ Clique com o botão direito > `Run As` > `Java Application`.
 
 ### 📂 Abstração
 
-![Diagrama Abstração](caminho/para/diagrama_abstracao.png)
+![image](https://github.com/user-attachments/assets/e9d8e2d4-4d02-4c8b-b9d9-110c3846f2c2)
 *Diagrama UML destacando as classes abstratas com métodos abstratos, e as subclasses que implementam esses métodos, representando a abstração.*
 
 ---
