@@ -85,9 +85,9 @@ public class Principal {
 		
 		Esfera esf = new Esfera();
 		esf.mostrar_forma();
-        esf.setRaio(7);
-        esf.calcArea();
-        esf.calcVolume();
+        	esf.setRaio(7);
+        	esf.calcArea();
+        	esf.calcVolume();
 		esf.mostrar_area();
 		esf.mostrar_volume();
 		esf.mostrar_area_retorno();
@@ -95,13 +95,13 @@ public class Principal {
 
 		Paralelepipedo parale = new Paralelepipedo();
 		parale.mostrar_forma();
-        parale.setAltura(8);
-        parale.setComprimento(10);
-        parale.setLargura(5);
-        parale.calcAreaBase();
-        parale.calcAreaTotal();
-        parale.calcDiagonal();
-        parale.calcVolume();
+        	parale.setAltura(8);
+        	parale.setComprimento(10);
+        	parale.setLargura(5);
+       		parale.calcAreaBase();
+        	parale.calcAreaTotal();
+        	parale.calcDiagonal();
+        	parale.calcVolume();
 		parale.mostrar_area_base();
 		parale.mostrar_area_total();
 		parale.mostrar_volume();
@@ -111,13 +111,13 @@ public class Principal {
 
 		Piramide pir = new Piramide();
 		pir.mostrar_forma();
-        pir.setLado(6);
-        pir.setLadoBase(8);
-        pir.setAltura(10);
-        pir.calcAreaBase();
-        pir.calcAreaLateral();
-        pir.calcAreaTotal();
-        pir.calcVolume();
+        	pir.setLado(6);
+        	pir.setLadoBase(8);
+        	pir.setAltura(10);
+	        pir.calcAreaBase();
+        	pir.calcAreaLateral();
+        	pir.calcAreaTotal();
+        	pir.calcVolume();
 		pir.mostrar_area_base();
 		pir.mostrar_area_lateral();
 		pir.mostrar_area_total();
@@ -129,13 +129,12 @@ public class Principal {
 
 		Prisma pri = new Prisma();
 		pri.mostrar_forma();
-        pri.setAresta(5);
-        pri.setBase(12);
-        pri.setLateral(10);
-        pri.calcAreaBase();
-        pri.calcAreaLateral();
-        pri.calcAreaTotal();
-        pri.calcVolume();
+        	pri.setBase(12);
+        	pri.setLateral(10);
+        	pri.calcAreaBase();
+        	pri.calcAreaLateral();
+        	pri.calcAreaTotal();
+        	pri.calcVolume();
 		pri.mostrar_area_base();
 		pri.mostrar_area_lateral();
 		pri.mostrar_area_total();
@@ -147,20 +146,20 @@ public class Principal {
 
 		Tetraedro tet = new Tetraedro();
 		tet.mostrar_forma();
-        tet.setAresta(6);
-        tet.calcAreaBase();
-        tet.calcAltura();
-        tet.calcVolume();
-        tet.mostrar_area_base();
-        tet.mostrar_volume();
-    	tet.mostrar_area_base_retorno();
-    	tet.mostrar_volume_retorno();
+        	tet.setAresta(6);
+        	tet.calcAreaBase();
+        	tet.calcAltura();
+        	tet.calcVolume();
+        	tet.mostrar_area_base();
+        	tet.mostrar_volume();
+    		tet.mostrar_area_base_retorno();
+    		tet.mostrar_volume_retorno();
 
 		Cubo cubo = new Cubo();
 		cubo.mostrar_forma();
-        cubo.setAresta(10);
-        cubo.calcAreaTotal();
-        cubo.calcVolume();
+        	cubo.setAresta(10);
+        	cubo.calcAreaTotal();
+        	cubo.calcVolume();
 		cubo.mostrar_area_total();
 		cubo.mostrar_volume();
 		cubo.mostrar_area_base_retorno();
@@ -170,12 +169,12 @@ public class Principal {
 
 		Cilindro cil = new Cilindro();
 		cil.mostrar_forma();
-        cil.setRaio(7);
-        cil.setAltura(10);
-        cil.calcAreaBase();
-        cil.calcAreaLateral();
-        cil.calcAreaTotal();
-        cil.calcVolume();
+	        cil.setRaio(7);
+	        cil.setAltura(10);
+	        cil.calcAreaBase();
+	        cil.calcAreaLateral();
+	        cil.calcAreaTotal();
+	        cil.calcVolume();
 		cil.mostrar_area_base();
 		cil.mostrar_area_lateral();
 		cil.mostrar_area_total();
@@ -187,13 +186,13 @@ public class Principal {
 
 		Cone cone = new Cone();
 		cone.mostrar_forma();
-        cone.setRaio(5);
-        cone.setAltura(12);
-        cone.setGeratriz(5);
-        cone.calcAreaBase();
-        cone.calcAreaLateral();
-        cone.calcAreaTotal();
-        cone.calcVolume();
+	        cone.setRaio(5);
+	        cone.setAltura(12);
+	        cone.setGeratriz(5);
+	        cone.calcAreaBase();
+	        cone.calcAreaLateral();
+	        cone.calcAreaTotal();
+	        cone.calcVolume();
 		cone.mostrar_area_base();
 		cone.mostrar_area_lateral();
 		cone.mostrar_area_total();
