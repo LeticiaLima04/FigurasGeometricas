@@ -1,4 +1,3 @@
-Claro! Vou deixar o README mais completo, com um tom claro, organizado, e mais “bonitinho”, seguindo seu estilo prioritário com emojis, listas e boa formatação visual — para ficar fácil, didático e agradável de ler.
 
 ---
 
