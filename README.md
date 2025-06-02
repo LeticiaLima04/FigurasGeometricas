@@ -1,6 +1,6 @@
 # 🟦 Exercícios de Figuras Geométricas Planas
 
-Este repositório contém uma pasta dedicada aos exercícios sobre **figuras geométricas planas**, desenvolvidos como parte da disciplina de Programação no IFCE Campus Maranguape.
+Este repositório contém uma pasta dedicada aos exercícios sobre **figuras geométricas planas e espaciais**, desenvolvidos como parte da disciplina de Programação no IFCE Campus Maranguape.
 
 ---
 
