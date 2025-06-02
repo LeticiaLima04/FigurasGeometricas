@@ -196,20 +196,24 @@ Clique com o botão direito > `Run As` > `Java Application`.
 ### 📂 Abstração
 
 ![image](https://github.com/user-attachments/assets/e9d8e2d4-4d02-4c8b-b9d9-110c3846f2c2)
+
 *Diagrama UML destacando as classes abstratas com métodos abstratos, e as subclasses que implementam esses métodos, representando a abstração.*
 
 ---
 
 ### 📂 Encapsulamento
 
-![Diagrama Encapsulamento](caminho/para/diagrama_encapsulamento.png)
+![image](https://github.com/user-attachments/assets/7fa0c06d-70cb-41df-8703-aab2b5bd7b5b)
+
 *Diagrama UML demonstrando a estrutura das classes e o uso do encapsulamento via atributos privados e métodos públicos.*
 
 ---
 
 ### 📂 Herança
 
-![Diagrama Herança](FigurasGeometricasPOO/FigurasGeometricas-Herança/FigurasGeometricasHerança.png)
+![image](https://github.com/user-attachments/assets/3a5bd3c1-74c0-4440-9d53-652d3d7182ca)![image](https://github.com/user-attachments/assets/8c291f56-4794-4a23-b0b0-3ef0540480b0)
+
+
 *Diagrama UML evidenciando a hierarquia entre classes base abstratas e suas subclasses concretas, representando o conceito de herança.*
 
 ---
