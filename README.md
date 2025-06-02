@@ -209,7 +209,7 @@ Clique com o botão direito > `Run As` > `Java Application`.
 
 ### 📂 Herança
 
-![Diagrama Herança](caminho/para/diagrama_heranca.png)
+![Diagrama Herança](FigurasGeometricasPOO/FigurasGeometricas-Herança/FigurasGeometricasHerança.png)
 *Diagrama UML evidenciando a hierarquia entre classes base abstratas e suas subclasses concretas, representando o conceito de herança.*
 
 ---
