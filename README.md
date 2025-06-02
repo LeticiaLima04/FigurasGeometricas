@@ -1,90 +1,221 @@
-# 🟦 Exercícios de Figuras Geométricas Planas
-
-Este repositório contém uma pasta dedicada aos exercícios sobre **figuras geométricas planas e espaciais**, desenvolvidos como parte da disciplina de Programação no IFCE Campus Maranguape.
+Claro! Vou deixar o README mais completo, com um tom claro, organizado, e mais “bonitinho”, seguindo seu estilo prioritário com emojis, listas e boa formatação visual — para ficar fácil, didático e agradável de ler.
 
 ---
 
-## 📌 Descrição
+# 🟦 Exercícios de Figuras Geométricas — Encapsulamento, Herança e Abstração
 
-O objetivo deste repositório é oferecer um ambiente organizado para o estudo e prática dos conceitos fundamentais relacionados às **figuras geométricas planas**, incluindo:
+Este repositório reúne projetos de **figuras geométricas planas e espaciais** organizados para exemplificar os principais conceitos da Programação Orientada a Objetos (POO):
+**Abstração**, **Herança** e **Encapsulamento**.
 
-* Identificação de formas geométricas:
-  ➤ Triângulo, Quadrado, Retângulo, Círculo, Losango, Trapézio, Paralelogramo, Hexágono e Pentágono.
-* Cálculo de **perímetros** e **áreas**
-* Propriedades básicas das figuras planas
+Os exercícios foram desenvolvidos como parte da disciplina de Programação no IFCE Campus Maranguape.
 
 ---
 
-## 🚀 Como usar
+## 📌 Objetivos do Repositório
 
-Para executar os exercícios, siga os passos abaixo:
+Aqui você encontrará três versões do estudo das figuras geométricas que ilustram:
 
-### 1️⃣ Baixe e instale o Eclipse IDE
+* 🔒 **Encapsulamento**
+  Proteção dos dados internos das classes, utilizando atributos privados e métodos públicos para acesso e alteração (getters e setters).
 
-Acesse [eclipse.org/downloads](https://www.eclipse.org/downloads/) para fazer o download e instalar o Eclipse no seu computador.
+* 🌳 **Herança**
+  Reutilização e extensão de código por meio de classes base que definem propriedades e métodos comuns, e subclasses que especializam o comportamento.
 
-### 2️⃣ Crie um novo projeto no Eclipse
+* 🎭 **Abstração**
+  Definição de classes abstratas e métodos abstratos que obrigam as subclasses a implementar funcionalidades específicas, promovendo flexibilidade e organização.
 
-* Abra o Eclipse e selecione `File > New > Java Project`
-* Nomeie o projeto (ex: `FigurasGeometricas`)
+---
+
+## 📚 Conteúdo dos Projetos
+
+Cada projeto trata das figuras geométricas com foco em um conceito da POO, e abrange:
+
+* **Figuras Geométricas Planas**
+  Triângulo, Quadrado, Retângulo, Círculo, Losango, Trapézio, Paralelogramo, Hexágono e Pentágono.
+
+* **Figuras Geométricas Espaciais**
+  Cubo, Prisma, Cilindro, Pirâmide, Esfera, Cone, Paralelepípedo e Tetraedro.
+
+* **Funcionalidades Implementadas**
+  Cálculo de áreas, perímetros, volumes e outras propriedades específicas.
+
+---
+
+## 🚀 Como utilizar
+
+### 1️⃣ Instale o Eclipse IDE
+
+Baixe e instale o Eclipse em [eclipse.org/downloads](https://www.eclipse.org/downloads/).
+
+---
+
+### 2️⃣ Importe o projeto desejado
+
+Cada conceito está em uma pasta específica:
+
+* `Encapsulamento`
+* `Heranca`
+* `Abstracao`
+
+Você pode importar qualquer um dos projetos para seu workspace no Eclipse.
+
+---
 
 ### 3️⃣ Crie os pacotes e classes
 
-* Clique com o botão direito sobre o `src` do seu projeto e selecione `New > Package`
+Dentro do Eclipse, crie os seguintes pacotes:
 
-* Nomeie o pacote como `br.edu.figurasgeometricasplanas`
+* `br.edu.figurasgeometricasplanas`
+* `br.edu.figurasgeometricasespaciais`
+* `br.edu.principal`
 
-* Crie uma classe para cada forma geométrica dentro desse pacote (ex: `Triangulo.java`, `Circulo.java` etc.)
-
-* Crie também a classe `Principal.java` dentro do mesmo pacote.
-
-### 4️⃣ Copie e cole os códigos
-
-* Acesse os arquivos do repositório, copie o conteúdo de cada classe de figura geométrica e cole nos respectivos arquivos criados no Eclipse.
-
-### 5️⃣ Execute o código
-
-* Clique com o botão direito na classe `Principal` e selecione `Run As > Java Application` para executar os cálculos.
+Em cada pacote, crie as classes correspondentes conforme a estrutura de cada projeto (veja abaixo).
 
 ---
 
-## 📚 Estrutura do Repositório
+### 4️⃣ Copie o código
+
+Copie e cole o conteúdo de cada arquivo `.java` do repositório para o arquivo correspondente na IDE.
+
+---
+
+### 5️⃣ Execute o projeto
+
+Execute a classe `Principal.java` dentro do pacote `br.edu.principal`:
+Clique com o botão direito > `Run As` > `Java Application`.
+
+---
+
+## 📁 Estrutura do Repositório
+
+---
+
+### Abstração
 
 ```
-📂 Figuras Geométricas Planas
+📂 Abstracao
+┣ 📂 bin
 ┣ 📂 src
-┃ ┣ 📂 br.edu.figurasgeometricasplanas
-┃ ┃ ┣ 📜 Triangulo.java
-┃ ┃ ┣ 📜 Quadrado.java
-┃ ┃ ┣ 📜 Retangulo.java
-┃ ┃ ┣ 📜 Circulo.java
-┃ ┃ ┣ 📜 Losango.java
-┃ ┃ ┣ 📜 Trapezio.java
-┃ ┃ ┣ 📜 Paralelogramo.java
-┃ ┃ ┣ 📜 Hexagono.java
-┃ ┃ ┣ 📜 Pentagono.java
-┃ ┣ 📂 br.edu.principal
-┃ ┃ ┣ 📜 Principal.java
+┃ ┗ 📂 br.edu
+┃   ┣ 📂 figurasgeometricasespaciais
+┃   ┃ ┣ 📜 Cilindro.java
+┃   ┃ ┣ 📜 Cone.java
+┃   ┃ ┣ 📜 Cubo.java
+┃   ┃ ┣ 📜 Esfera.java
+┃   ┃ ┣ 📜 FiguraEspacial.java (classe abstrata)
+┃   ┃ ┣ 📜 Paralelepipedo.java
+┃   ┃ ┣ 📜 Piramide.java
+┃   ┃ ┣ 📜 Prisma.java
+┃   ┃ ┗ 📜 Tetraedro.java
+┃   ┣ 📂 figurasgeometricasplanas
+┃   ┃ ┣ 📜 Circulo.java
+┃   ┃ ┣ 📜 FiguraPlana.java (classe abstrata)
+┃   ┃ ┣ 📜 Hexagono.java
+┃   ┃ ┣ 📜 Losango.java
+┃   ┃ ┣ 📜 Paralelogramo.java
+┃   ┃ ┣ 📜 Pentagono.java
+┃   ┃ ┣ 📜 Quadrado.java
+┃   ┃ ┣ 📜 Retangulo.java
+┃   ┃ ┣ 📜 Trapezio.java
+┃   ┃ ┗ 📜 Triangulo.java
+┃   ┗ 📂 principal
+┃     ┗ 📜 Principal.java
+┣ 📜 module-info.java
+```
 
+### Encapsulamento
+
+```
+📂 Encapsulamento
+┣ 📂 bin
+┣ 📂 src
+┃ ┗ 📂 br.edu
+┃   ┣ 📂 figurasgeometricasespaciais
+┃   ┃ ┣ 📜 Cilindro.java
+┃   ┃ ┣ 📜 Cone.java
+┃   ┃ ┣ 📜 Cubo.java
+┃   ┃ ┣ 📜 Esfera.java
+┃   ┃ ┣ 📜 Paralelepipedo.java
+┃   ┃ ┣ 📜 Piramide.java
+┃   ┃ ┣ 📜 Prisma.java
+┃   ┃ ┗ 📜 Tetraedro.java
+┃   ┣ 📂 figurasgeometricasplanas
+┃   ┃ ┣ 📜 Circulo.java
+┃   ┃ ┣ 📜 Hexagono.java
+┃   ┃ ┣ 📜 Losango.java
+┃   ┃ ┣ 📜 Paralelogramo.java
+┃   ┃ ┣ 📜 Pentagono.java
+┃   ┃ ┣ 📜 Quadrado.java
+┃   ┃ ┣ 📜 Retangulo.java
+┃   ┃ ┣ 📜 Trapezio.java
+┃   ┃ ┗ 📜 Triangulo.java
+┃   ┗ 📂 principal
+┃     ┗ 📜 Principal.java
+┣ 📜 module-info.java
 ```
 
 ---
 
-## 📖 Conteúdo
+### Herança
 
-Os arquivos deste repositório estão organizados da seguinte forma:
+```
+📂 Heranca
+┣ 📂 bin
+┣ 📂 src
+┃ ┗ 📂 br.edu
+┃   ┣ 📂 figurasgeometricasespaciais
+┃   ┃ ┣ 📜 Cilindro.java
+┃   ┃ ┣ 📜 Cone.java
+┃   ┃ ┣ 📜 Cubo.java
+┃   ┃ ┣ 📜 Esfera.java
+┃   ┃ ┣ 📜 FiguraEspacial.java
+┃   ┃ ┣ 📜 Paralelepipedo.java
+┃   ┃ ┣ 📜 Piramide.java
+┃   ┃ ┣ 📜 Prisma.java
+┃   ┃ ┗ 📜 Tetraedro.java
+┃   ┣ 📂 figurasgeometricasplanas
+┃   ┃ ┣ 📜 Circulo.java
+┃   ┃ ┣ 📜 FiguraPlana.java
+┃   ┃ ┣ 📜 Hexagono.java
+┃   ┃ ┣ 📜 Losango.java
+┃   ┃ ┣ 📜 Paralelogramo.java
+┃   ┃ ┣ 📜 Pentagono.java
+┃   ┃ ┣ 📜 Quadrado.java
+┃   ┃ ┣ 📜 Retangulo.java
+┃   ┃ ┣ 📜 Trapezio.java
+┃   ┃ ┗ 📜 Triangulo.java
+┃   ┗ 📂 principal
+┃     ┗ 📜 Principal.java
+┣ 📜 module-info.java
+```
 
-* **Figuras Geométricas**:
-  ➤ Contém as classes responsáveis pelos cálculos de área e perímetro de cada figura.
 
-* **Principal**:
-  ➤ Responsável por executar o programa e chamar os métodos de cada figura.
+---
 
-* **Diagrama (PDF)**:
-  ➤ Documento com o diagrama das figuras, contendo os parâmetros utilizados, conforme solicitado pelo professor.
+## 🖼️ Diagramas UML dos Projetos
+
+### 📂 Abstração
+
+![Diagrama Abstração](caminho/para/diagrama_abstracao.png)
+*Diagrama UML destacando as classes abstratas com métodos abstratos, e as subclasses que implementam esses métodos, representando a abstração.*
+
+---
+
+### 📂 Encapsulamento
+
+![Diagrama Encapsulamento](caminho/para/diagrama_encapsulamento.png)
+*Diagrama UML demonstrando a estrutura das classes e o uso do encapsulamento via atributos privados e métodos públicos.*
+
+---
+
+### 📂 Herança
+
+![Diagrama Herança](caminho/para/diagrama_heranca.png)
+*Diagrama UML evidenciando a hierarquia entre classes base abstratas e suas subclasses concretas, representando o conceito de herança.*
 
 ---
 
 ## 📬 Contato
 
-Caso tenha dúvidas, sugestões ou queira contribuir com o projeto, fique à vontade para abrir uma issue ou entrar em contato! 😊
+Se tiver dúvidas, sugestões, ou quiser contribuir:
+📩 Abra uma issue ou envie mensagem!
